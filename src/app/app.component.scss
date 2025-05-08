@@ -1,0 +1,15 @@
+.cursor:hover{
+    cursor: pointer;
+}
+.animation {
+  animation-name: pulseEffect;
+  animation-duration: 0.5s;
+}
+
+@keyframes pulseEffect {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.25); }
+  50% { transform: scale(1.5); }
+  75% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
